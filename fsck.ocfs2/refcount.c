@@ -17,6 +17,7 @@
 
 #include <inttypes.h>
 #include <assert.h>
+#include <et/com_err.h>
 
 #include "ocfs2/kernel-rbtree.h"
 #include "ocfs2-kernel/kernel-list.h"

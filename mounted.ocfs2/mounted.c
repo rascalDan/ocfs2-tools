@@ -36,6 +36,7 @@
 #include <sys/stat.h>
 #include <dirent.h>
 #include <ctype.h>
+#include <sys/sysmacros.h>
 
 #include <uuid/uuid.h>
 

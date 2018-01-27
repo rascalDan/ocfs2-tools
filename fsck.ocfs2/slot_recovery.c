@@ -17,6 +17,7 @@
  * General Public License for more details.
  */
 
+#include <et/com_err.h>
 #include <ocfs2/bitops.h>
 #include "util.h"
 #include "slot_recovery.h"

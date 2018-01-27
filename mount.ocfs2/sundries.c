@@ -9,6 +9,7 @@
  *
  */
 #include <unistd.h>
+#include <ctype.h>
 #include <stdio.h>
 #include <string.h>
 #include <mntent.h>		/* for MNTTYPE_SWAP */

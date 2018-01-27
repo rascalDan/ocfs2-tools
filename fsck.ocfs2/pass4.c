@@ -28,6 +28,7 @@
  */
 #include <inttypes.h>
 #include <limits.h>
+#include <et/com_err.h>
 
 #include "ocfs2/ocfs2.h"
 
