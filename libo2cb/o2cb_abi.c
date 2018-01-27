@@ -45,6 +45,7 @@
 #include <libdlm.h>
 #endif
 
+#include "ocfs2/ocfs2.h"
 #include "o2cb/o2cb.h"
 #include "o2cb/o2cb_client_proto.h"
 #include "o2cb_abi.h"
