@@ -124,7 +124,7 @@ AC_CHECK_HEADER(libaio.h, :,
 AC_SUBST(AIO_LIBS)
 
 NCURSES_LIBS=
-AC_CHECK_LIB(ncurses, tgetstr, NCURSES_LIBS=-lncurses)
+AC_CHECK_LIB(ncurses, printw, NCURSES_LIBS=-lncurses)
 if test "x$NCURSES_LIBS" = "x"; then
   AC_MSG_ERROR([Unable to find ncurses library])
 fi
