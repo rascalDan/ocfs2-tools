@@ -13,3 +13,5 @@ build-stamp
 configure-stamp
 *.pc
 *.sw?
+aclocal.m4
+ltmain.sh
